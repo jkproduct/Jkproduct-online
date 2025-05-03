@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: white;
+  color: black;
+}
+header {
+  background: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  margin: 2rem 0;
+}
+.products {
+  text-align: center;
+}
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 180px;
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
